@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  color: #000;
+  height: 500px;
+  margin-top: 150px;
+}
+
+.App.dark {
+  background-color: #061a50;
+  color: #fff;
+}
+
+button {
+  background-color: #061a50;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.App.dark button {
+  background-color: #fff;
+  color: #333;
+}
